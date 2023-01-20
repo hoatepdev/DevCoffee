@@ -1,0 +1,19 @@
+{
+  "name": "devcafe",
+  "version": "0.1.0",
+  "description": "Social network about coffee",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run server --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "devcafe",
+    "hanoicafe"
+  ],
+  "author": "hoatep",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
